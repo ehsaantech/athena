@@ -53,8 +53,7 @@ const AppointmentForm = () => {
               Book Your Appointment
             </h5>
             <p className="mb-8 text-center">
-              Please fill out the form below to book an appointment with Athena. Our AI voice agent will contact you shortly to
-              confirm the details.
+              Please fill out the form to book an appointment with Athena. Our AI voice agent will make an outbound call to confirm the details soon.
             </p>
             <form id="contactForm" onSubmit={handleSubmit}>
               <div className="mb-6">
